@@ -1,0 +1,19 @@
+{
+  "name": "dz2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ngrok": "./ngrok http 8081",
+    "lint": "eslint --ext=js js/doorOthers.js",
+    "precommit": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-yandex": "^1.0.6",
+    "husky": "^0.14.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

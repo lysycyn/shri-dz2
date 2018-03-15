@@ -1,0 +1,12 @@
+{
+  "extends": "yandex",
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    vars-on-top: 0
+  }
+}
